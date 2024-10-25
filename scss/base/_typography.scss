@@ -5,15 +5,28 @@
     src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
 }
 
+body{
+    font-family: Inter;
+}
+
 .person-name{
     @include typography(1.5rem, 700);
+    color: $white;
+    text-align: center
 }
 
 .info-text{
     @include typography(0.875rem, 400);
+    color: $white;
+    text-align: center;
 
     &--bold{
         @extend .info-text;
         font-weight: 700;
+
+        &--green{
+            @extend.info-text--bold;
+            color: $green;
+        }
     }
 }

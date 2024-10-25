@@ -4,3 +4,17 @@ body{
     background-color: $gray-900;
     @include flex(center, center);
 }
+
+.container{
+    @include flex(center, center, column, 1.5rem);
+    background-color: $gray-800;
+    padding: 2.5rem;
+    border-radius: 0.75rem;
+    width: 25%;
+    max-width: 384px;
+}
+
+.buttons{
+    @include flex(center, center, column, 1rem);
+    width: 100%;
+}
