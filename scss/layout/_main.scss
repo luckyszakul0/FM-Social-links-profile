@@ -10,8 +10,17 @@ body{
     background-color: $gray-800;
     padding: 2.5rem;
     border-radius: 0.75rem;
-    width: 25%;
-    max-width: 384px;
+    min-width: 384px;
+
+    @media only screen and (max-width: 800px) and (min-width: 460px){
+        width: 60%;
+    }
+
+    @media only screen and (max-width: 460px){
+        width: 90%;
+        min-width: 0px;
+        padding: 1.5rem;
+    }
 }
 
 .buttons{
