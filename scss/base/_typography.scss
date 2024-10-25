@@ -1,0 +1,19 @@
+@use '../utilities' as *;
+
+@font-face {
+    font-family: Inter;
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+.person-name{
+    @include typography(1.5rem, 700);
+}
+
+.info-text{
+    @include typography(0.875rem, 400);
+
+    &--bold{
+        @extend .info-text;
+        font-weight: 700;
+    }
+}

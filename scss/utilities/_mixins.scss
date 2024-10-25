@@ -1,0 +1,13 @@
+@mixin flex($justify, $align, $direction: column, $gap: 0rem){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    gap: $gap;
+}
+
+@mixin typography($fSize, $fWeight, $lHeight: 150%){
+    font-size: $fSize;
+    font-weight: $fWeight;
+    line-height: $lHeight;
+}

@@ -1,0 +1,14 @@
+@use '../utilities' as *;
+
+.btn{
+    background-color: $gray-700;
+    color: $white;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    transition: 0.3s all;
+
+    &:hover{
+        color: $gray-700;
+        background-color: $green;
+    }
+}
