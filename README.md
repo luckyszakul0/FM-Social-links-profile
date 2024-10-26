@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/social-links-profile-made-using-scss-and-partial-7-1-pattern-PCATx8ZkKb)
+- Live Site URL: [Github Pages](https://luckyszakul0.github.io/FM-Social-links-profile/)
 
 ## My process
 
@@ -41,6 +41,7 @@ Users should be able to:
 - Flexbox
 - Desktop-first workflow
 - Figma file
+- Partial 7-1 pattern
 
 ### Useful resources
 
